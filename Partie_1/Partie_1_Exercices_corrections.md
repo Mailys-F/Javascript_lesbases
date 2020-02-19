@@ -1,6 +1,6 @@
 # Javascript - les bases - Exercices
 
-## 4. VARIABLES ET VALEURS
+## VARIABLES ET VALEURS
 
 ### Exercice : Tentez de prévoir les valeurs
 
@@ -33,11 +33,9 @@ Calculez son âge et affichez son prénom et son âge sur la page.
 
 <hr/>
 
-## 5. LES TESTS : IF et SWITCH
+## LES TESTS : IF et SWITCH
 
 ### Exercice : Créez votre propre chabot
-
-
 
 ### Exercice : Jour suivant
 
@@ -90,7 +88,7 @@ Calculez son âge et affichez son prénom et son âge sur la page.
 
 <hr/>
 
-## 8. LES BOUCLES : FOR ET WHILE
+## LES BOUCLES : FOR ET WHILE
 
 ### Exercice : La table de multiplication
 
@@ -141,32 +139,3 @@ Calculez son âge et affichez son prénom et son âge sur la page.
         else if (nombre % 5 === 0) console.log("Buzz");
         else console.log(nombre);
     }
-
-## 9. LES TABLEAUX
-
-### Exercice : Somme du tableau
-
-Complétez le programme pour calculer puis afficher la somme des valeurs du tableau :
-
-    const nombres = [11, 3, 7, 2, 9, 10];
-    let somme = 0;
-
-    for (let i = 0; i < nombres.length; i++) {
-        somme += nombres[i];
-    }
-
-    console.log(somme);
-
-### Exercice : Valeur maximale du tableau
-
-    const valeurs = [3, 11, 7, 2, 9, 10];
-    let max;
-
-    max = 0;
-    for (let i = 0; i < nombres.length; i++) {
-        if(max < nombres[i]) {
-          max = nombres[i];
-        }
-    }
-
-    console.log(max);

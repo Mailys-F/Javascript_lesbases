@@ -1,6 +1,6 @@
 # Javascript - les bases - Exercices
 
-## 4. VARIABLES ET VALEURS
+## VARIABLES ET VALEURS
 
 ### Exercice : Tentez de prévoir les valeurs
 
@@ -35,7 +35,7 @@ Calculez son âge et affichez son prénom et son âge sur la page.
 
 <hr/>
 
-## 5. LES TESTS : IF et SWITCH
+## LES TESTS : IF et SWITCH
 
 ### Exercice : Créez votre propre chabot
 
@@ -70,7 +70,7 @@ Pour les plus avancés : créez votre propre chabot complet !
 
 <hr/>
 
-## 8. LES BOUCLES : FOR ET WHILE
+## LES BOUCLES : FOR ET WHILE
 
 ### Exercice : La table de multiplication
 
@@ -112,30 +112,6 @@ Vous pouvez utiliser l'opérateur modulo % qui renvoie le reste de la division d
         console.log(12 % 3); // 0
 
 <hr/>
-
-## 9. LES TABLEAUX
-
-### Exercice : Somme du tableau
-
-Complétez le programme pour calculer puis afficher la somme des valeurs du tableau :
-
-    const nombres = [11, 3, 7, 2, 9, 10];
-    let somme = 0;
-
-    // Ajoutez votre code ici
-
-    console.log(somme);
-
-### Exercice : Valeur maximale du tableau
-
-Complétez le programme pour afficher la valeur la plus grande du tableau :
-
-    const valeurs = [3, 11, 7, 2, 9, 10];
-    let max;
-
-    // Ajoutez votre code ici
-
-    console.log(max);
 
 <br/>
 <hr/>
