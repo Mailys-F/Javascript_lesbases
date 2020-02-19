@@ -139,4 +139,4 @@ Complétez le programme pour afficher la valeur la plus grande du tableau :
 
 <hr/>
 
-> Corrections [Partie_1_Exercices_corrections.md](Partie_1_Exercices_corrections.md)
+> Corrections [ressources/corrections.md](ressources/corrections.md)
