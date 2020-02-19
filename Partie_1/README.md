@@ -1,8 +1,20 @@
 # Javascript - les bases - Exercices
 
-<hr/>
-
 ## 4. VARIABLES ET VALEURS
+
+### Exercice : Tentez de prévoir les valeurs
+
+    let a = 2;
+    a -= 1;
+    a++;
+    let b = 8;
+    b += 2;
+    const c = a + b * b;
+    const d = a * b + b;
+    const e = a * (b + b);
+    const f = a * b / a;
+    const g = b / a * a;
+    console.log(a, b, c, d, e, f, g);
 
 ### Exercice : Permutation de variable
 
@@ -16,9 +28,14 @@
     console.log("nombre1 = " + nombre1); // nombre1 = 3
     console.log("nombre2 = " + nombre2); // nombre2 = 5
 
+### Exercice : Interaction avec l'utilisateur
+
+Récupérez le prénom de l'utilisateur et son année de naissance.<br/>
+Calculez son âge et affichez son prénom et son âge sur la page.
+
 <hr/>
 
-## 5. LES TESTS : IF
+## 5. LES TESTS : IF et SWITCH
 
 ### Exercice : Créez votre propre chabot
 
@@ -27,6 +44,29 @@ Programmez un chatbot, comme par exemple :
 ![chatbot.png](chatbot.png)
 
 Pour les plus avancés : créez votre propre chabot complet !
+
+### Exercice : Jour suivant
+
+    const jourActuel = "lundi";
+    let jourSuivant = "";
+
+    // Complétez le code pour qu'il affiche le jour suivant le jour actuel.
+    // Testez-le en modifiant la valeur de la variable jourActuel.
+
+    console.log(`Demain, nous serons ${jourSuivant}`);
+
+### Exercice : Calculatrice
+
+    // Calculatrice
+    let nbGauche=12;
+    let nbDroite=6;
+    let operation="-";
+    let resultat;
+
+    // Complétez ce programme pour afficher le résultats des 4 opérations de base+ - * /
+    // Tesez-le en modifiant la valeur des variables
+
+    console.log(resultat);
 
 <hr/>
 
@@ -56,6 +96,21 @@ Puis faites deviner ce nombre aléatoire à l'utilisateur :
 
 Enfin, limitez enfin le nombre de tentatives à 10.
 
+### Exercice : FizzBuzz
+
+Ecrivez un programme qui affiche tous les nombres entre 1 et 100 avec les exceptions suivantes :
+
+- Il affiche "Fizz" à la place du nombre si celui-ci est divisible par 3.
+- Il affiche "Buzz" à la place du nombre si celui-ci est divisible par 5 et non par 3.
+- Il affiche "FizzBuzz" à la place du nombre si celui-ci est divisible à la fois par 3 et par 5.
+
+Vous pouvez utiliser l'opérateur modulo % qui renvoie le reste de la division d'un entier par un autre
+
+        console.log(10 % 2); // 0
+        console.log(10 % 3); // 1
+        console.log(11 % 3); // 2
+        console.log(12 % 3); // 0
+
 <hr/>
 
 ## 9. LES TABLEAUX
@@ -69,6 +124,8 @@ Complétez le programme pour calculer puis afficher la somme des valeurs du tabl
 
     // Ajoutez votre code ici
 
+    console.log(somme);
+
 ### Exercice : Valeur maximale du tableau
 
 Complétez le programme pour afficher la valeur la plus grande du tableau :
@@ -77,3 +134,5 @@ Complétez le programme pour afficher la valeur la plus grande du tableau :
     let max;
 
     // Ajoutez votre code ici
+
+    console.log(max);
