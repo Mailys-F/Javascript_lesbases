@@ -41,7 +41,7 @@ Calculez son âge et affichez son prénom et son âge sur la page.
 
 Programmez un chatbot, comme par exemple :
 
-![chatbot.png](chatbot.png)
+![ressources/chatbot.png](ressources/chatbot.png)
 
 Pour les plus avancés : créez votre propre chabot complet !
 
