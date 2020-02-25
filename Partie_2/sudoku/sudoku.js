@@ -28,4 +28,5 @@ function getRandomInt(max) {
 }
 
 // Complétez le programme pour qu'il affiche une grille de sudoku aléatoire
+// Les 9 premiers numero de la grille de 89 numéros constitutent la 1ère ligne, etc
 
