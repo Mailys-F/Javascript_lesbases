@@ -93,7 +93,7 @@ Utilisez l’alphabet Leet minimum le suivant et complétez le programme.
 
 ## Bonus avancé : Convertir un nombre en toutes lettres
 
-POur mener à bien votre exercice, voici quelles sont les étapes que votre script devra suivre (vous n'êtes pas obligé, mais c'est conseillé) :
+Pour mener à bien votre exercice, voici quelles sont les étapes que votre script devra suivre (vous n'êtes pas obligé, mais c'est conseillé) :
 
 - L'utilisateur est invité à entre un nombre entre 0 et 999.
 
@@ -108,6 +108,12 @@ POur mener à bien votre exercice, voici quelles sont les étapes que votre scri
 - Une fois le résultat de la fonction obtenu, il est affiché à l'utilisateur.
 
 - Lorsque l'affichage du nombre en toutes lettres est terminé, on redemande un nouveau nombre à l'utilisateur.
+
+## Bonus avancé 2 : afficher un sudoku
+
+Récupérez le dossier SUDOKU, il contient ce qu'il vous faut pour démarrer.
+
+Enjoy !
 
 <br/>
 <hr/>

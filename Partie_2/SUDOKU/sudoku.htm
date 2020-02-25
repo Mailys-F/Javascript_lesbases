@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        .container { max-width:400px; margin-top:30px;}
+        table { border-spacing : 0; border-collapse : collapse; margin:auto; }
+        td{width:40px; height:40px; font-size: 20px; text-align:center; vertical-align: middle; border:1px solid #333;}        
+        .caseleft { border-left:3px solid #333; }
+        .casebottom { border-bottom:3px solid #333; }
+        .left {float:left; margin-top:10px;}
+        .right {float:right; margin-top:10px; margin-right:5px;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sudoku <span id="noSudoku"></span></h1>
+        <div id="divGrille"></div>  
+    </div>    
+    <script src="sudoku.js"></script>
+</body>
+</html>
+
