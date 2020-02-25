@@ -111,7 +111,7 @@ Pour mener à bien votre exercice, voici quelles sont les étapes que votre scri
 
 ## Bonus avancé 2 : afficher un sudoku
 
-Récupérez le dossier SUDOKU, il contient ce qu'il vous faut pour démarrer.
+Récupérez le dossier **sudoku**, il contient ce qu'il vous faut pour démarrer.
 
 Enjoy !
 
