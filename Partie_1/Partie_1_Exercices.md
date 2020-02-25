@@ -78,7 +78,7 @@ Sauriez-vous automatiser l'affichage de la table de multiplication ?<br/>
 Demandez un chiffre à l'utilisateur, et si le chiffre est correct, afficher la table dans la page Html.<br/>
 Si l'utilisateur renseigne un nombre incorrect, proposez-lui de le ressaisir.
 
-![multiplication.png](multiplication.png)
+![ressources/multiplication.png](ressources/multiplication.png)
 
 ### Exercice : Le nombre Mystère
 
