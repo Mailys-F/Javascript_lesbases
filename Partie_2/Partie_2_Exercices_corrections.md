@@ -6,19 +6,36 @@
     function carre(x) {
       return x * x;
     }
+    console.log(carre(0)); // 0
+    console.log(carre(5)); // 25
+
     // Renvoie le minimum entre a et b
     function minimum(a, b) {
       if (a < b) {
         return a;
       }
       return b;
-    }
-
-    console.log(carre(0)); // 0
-    console.log(carre(5)); // 25
+    }   
     console.log(minimum(4.5, 5)); // 4.5
     console.log(minimum(19, 9)); // 9
     console.log(minimum(1, 1)); // 1
+
+    //Plus Grand Diviseur Commun
+    function calculerPGCD(a, b) {
+      // i démarre au plus petit des 2 nombres
+      let i = b;
+      if (b > a) i = a;
+
+      // tant que i>0, on teste si i est un diviseur commun
+      for (i; i > 0; i--) {
+          if (a % i == 0 && b % i == 0) {
+              return i;
+          }
+      }
+      return 0;
+    }
+    console.log(calculerPGCD(30, 12));  //6
+    console.log(calculerPGCD(25, 15));  //5
 
 <hr/>
 

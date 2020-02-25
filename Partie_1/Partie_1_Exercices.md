@@ -82,7 +82,7 @@ Si l'utilisateur renseigne un nombre incorrect, proposez-lui de le ressaisir.
 
 ### Exercice : Le nombre Mystère
 
-Faites choisir un nombre aléatoire à l'ordinateur. <br/>
+Faites choisir un nombre aléatoire à l'ordinateur, entre 1 et 100. <br/>
 Pour cela, vous pouvez utiliser la fonction Math.random : https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Objets_globaux/Math/random 
 
 Par exemple :
