@@ -14,6 +14,8 @@ Le cours : <a href="Partie_2/Partie_2_FonctionsEtTableaux.pdf" target="_blank">P
 
 Les exercices : [Partie_2/Partie_2_Exercices.md](Partie_2/Partie_2_Exercices.md)
 
-## Bonus
+## Partie 3 : manipulation du DOM #1
 
-Pour vous entrainer davantage sur Javascript : (https://www.sololearn.com/Course/JavaScript)
+Le cours : <a href="Partie_3/Partie_3_Manipulation_du_DOM.pdf" target="_blank">Partie_3/Partie_3_Manipulation_du_DOM.pdf</a>
+
+Les exercices : [Partie_3/Partie_3_Exercices.md](Partie_3/Partie_3_Exercices.md)
