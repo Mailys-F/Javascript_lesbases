@@ -16,6 +16,6 @@ Les exercices : [Partie_2/Partie_2_Exercices.md](Partie_2/Partie_2_Exercices.md)
 
 ## Partie 3 : manipulation du DOM #1
 
-Le cours : <a href="Partie_3/Partie_3_Manipulation_du_DOM.pdf" target="_blank">Partie_3/Partie_3_Manipulation_du_DOM.pdf</a>
+Le cours : <a href="Partie_3/Partie_3_Manipulation_du_DOM_1.pdf" target="_blank">Partie_3/Partie_3_Manipulation_du_DOM_1.pdf</a>
 
 Les exercices : [Partie_3/Partie_3_Exercices.md](Partie_3/Partie_3_Exercices.md)
