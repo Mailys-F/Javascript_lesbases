@@ -84,3 +84,82 @@ Ajoutez à votre script le code suivant :
 Puis écrivez la fonction **possede** qui vérifie qu'un élément possède une classe.
 
 <hr/>
+
+## Manipulation du DOM avec la propriété style
+
+### Exercice : Colorations
+
+Créez un fichier html contenant trois paragraphes précédé chacun d'un titre "h2".
+Créez un script afin de permettre à l'utilisateur de saisir la nouvelle couleur pour le texte puis la nouvelle couleur de fond des trois paragraphes de la page web.
+
+![ressources\coloration.png](ressources\coloration.png)
+
+### Exercice : Informations
+
+Créez un fichier html contenant le body suivant :
+
+    <div id="contenu">ABC
+        <br>Easy as
+        <br>One, two, three
+    </div>
+    <div id="infos"></div>
+
+Et le css suivant :
+
+    #contenu {
+        float: right;
+        margin-top: 100px;
+        margin-right: 50px;
+    }
+
+Enfin, créez le script qui ajoute à la page web une liste affichant la hauteur et la largeur de l'élément identifié par "contenu" :
+
+![ressources\informations.png](ressources\informations.png)
+
+<hr/>
+
+## Ajout de nouveaux éléments sur le DOM
+
+### Exercice : Journaux en ligne
+
+Créez un fichier html contenant le body suivant :
+
+    <h1>Quelques journaux en ligne</h1>
+    <div id="contenu"></div>
+
+Ajoutez-y le script suivant :
+
+    // Liste des journaux
+    let journaux = ["http://lemonde.fr", "http://lefigaro.fr", "http://liberation.fr"];
+
+Complétez votre script afin d'ajouter la liste des liens vers les journaux en ligne, dans la div contenu.
+Vous devez utiliser le tableau journaux et chaque lien doit être cliquable.
+
+### Exercice : Mon petit dico
+
+Créez un fichier html contenant le body suivant :
+
+    <h1>Un mini-dictionnaire</h1>
+    <div id="contenu"></div>
+
+Ajoutez-y le script suivant :
+
+    // Liste des mots du dictionnaire
+    var mots = [
+        {
+            terme: "Procrastination",
+            definition: "Tendance pathologique à remettre systématiquement au lendemain"
+        },
+        {
+            terme: "Tautologie",
+            definition: "Phrase dont la formulation ne peut être que vraie"
+        },
+        {
+            terme: "Oxymore",
+            definition: "Figure de style qui réunit dans un même syntagme deux termes sémantiquement opposés"
+        }
+    ];
+
+Complétez votre script afin créer le dictionnaire sur la page web, dans la div "contenu".
+
+<hr/>
