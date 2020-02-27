@@ -18,23 +18,6 @@ Créez ensuite le script JS conforme aux instructions suivantes :
 - Récupérer tous les paragraphes et afficher leur contenu textuel uniquement dans la console
 - Inverser les adjectifs 1 et 2
 
-### Exercice : Journaux en ligne
-
-Créez un fichier html contenant le body suivant :
-
-    <h1>Quelques journaux en ligne</h1>
-    <div id="contenu"></div>
-
-Ajoutez-y le script suivant :
-
-    // Liste des journaux
-    let journaux = ["http://lemonde.fr", "http://lefigaro.fr", "http://liberation.fr"];
-
-Complétez votre script afin d'ajouter la liste des liens vers les journaux en ligne, dans la div contenu.
-Vous devez utiliser le tableau journaux et chaque lien doit être cliquable.
-
-<hr/>
-
 ## Manipulation du DOM avec les querySelectors
 
 ### Exercice : Compter les éléments
