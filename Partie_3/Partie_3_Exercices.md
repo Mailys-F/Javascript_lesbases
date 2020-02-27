@@ -92,7 +92,7 @@ Puis écrivez la fonction **possede** qui vérifie qu'un élément possède une 
 Créez un fichier html contenant trois paragraphes précédé chacun d'un titre "h2".
 Créez un script afin de permettre à l'utilisateur de saisir la nouvelle couleur pour le texte puis la nouvelle couleur de fond des trois paragraphes de la page web.
 
-![ressources\coloration.png](ressources\coloration.png)
+![ressources/coloration.png](ressources/coloration.png)
 
 ### Exercice : Informations
 
@@ -114,7 +114,7 @@ Et le css suivant :
 
 Enfin, créez le script qui ajoute à la page web une liste affichant la hauteur et la largeur de l'élément identifié par "contenu" :
 
-![ressources\informations.png](ressources\informations.png)
+![ressources/informations.png](ressources/informations.png)
 
 <hr/>
 
