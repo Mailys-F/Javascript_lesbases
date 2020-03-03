@@ -1,6 +1,6 @@
 # Javascript - les bases - Exercices
 
-## Manipulation du DOM avec innerHTML et textContent
+## Manipulation du DOM
 
 ### Exercice : Mon rêve familier
 
@@ -17,8 +17,6 @@ Créez ensuite le script JS conforme aux instructions suivantes :
 
 - Récupérer tous les paragraphes et afficher leur contenu textuel uniquement dans la console
 - Inverser les adjectifs 1 et 2
-
-## Manipulation du DOM avec les querySelectors
 
 ### Exercice : Compter les éléments
 
